@@ -2,6 +2,8 @@
 
 Migration [Faster-LIO](https://github.com/gaoxiang12/faster-lio) to ROS2 
 
+Originally Implemented by https://github.com/GangGeon10/Faster-LIO-ROS2
+
 ## Environment
 * Ubuntu 20.04 LTS
 * ROS galactic version
