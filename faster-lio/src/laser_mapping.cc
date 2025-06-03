@@ -517,7 +517,7 @@ LaserMapping::LaserMapping(const std::string &name) : Node(name) {
 
 void LaserMapping::Run() {
     if (!SyncPackages()) {
-        LOG(WARNING) << "Sync failed, skip this scan!";
+        // LOG(WARNING) << "Sync failed, skip this scan!";
         return;
     }
 

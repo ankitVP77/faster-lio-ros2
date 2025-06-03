@@ -112,7 +112,7 @@ void PointCloudPreprocess::Oust64Handler(const sensor_msgs::msg::PointCloud2::Sh
 
         cloud_out_.points.push_back(added_pt);
     }
-    LOG(INFO) << "Number of NaN points: " << num_nan_points << " out of " << pl_orig.points.size();
+    // LOG(INFO) << "Number of NaN points: " << num_nan_points << " out of " << pl_orig.points.size();
 }
 
 void PointCloudPreprocess::VelodyneHandler(const sensor_msgs::msg::PointCloud2::SharedPtr msg) {
